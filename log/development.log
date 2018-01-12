@@ -2140,3 +2140,7 @@ Processing by SongsController#index as HTML
   [1m[35mSong Load (1.4ms)[0m  SELECT  "songs".* FROM "songs"  ORDER BY "songs"."created_at" DESC LIMIT 20 OFFSET 0
   Rendered songs/index.html.erb within layouts/application (26.6ms)
 Completed 200 OK in 326ms (Views: 317.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 159.140.254.104 at 2018-01-12 22:30:07 +0000
+Cannot render console from 159.140.254.104! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
